@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+	<title>Practice</title>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="pracjs.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form action=""  method="get">
+	<label for="food_type">What type of food do you want</label>
+	<input type="text" name="food_type" id="foodType">
+	<label for="favorite_day">What is your favorite day</label>
+	<select id="favorite_day">
+		<option value="Monday">Monday</option>
+		<option value="Tuesday">Tuesday</option>
+		<option value="Wednesday">Wednesday</option>
+		<option value="Thursday">Thursday</option>
+		<option value="Friday">Friday</option>
+		<option value="Saturday">Saturday</option>
+		<option value="Sunday">Sunday</option>
+	</select>
+	<fieldset>
+	<input type="button" name="Enter" id="Enter" value="Next" onclick="next()">
+	</fieldset>
+</form>
+<p id="test"></p>
+</body>
